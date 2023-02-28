@@ -1,0 +1,329 @@
+/*about us css*/
+
+#about-data{
+    min-height: 30vh;
+    margin-top: 35%;
+    padding:5px;
+}
+
+#about-data #line{
+    margin-top: -10px;
+}
+
+#about-data p {
+    font-size: large;
+    padding: 0px 30px 0px 30px;
+    color: rgb(24, 20, 20);
+}
+
+#core-values img{
+    margin-top: 30px;
+    height: 42vh;
+    width: 90vw;
+}
+
+#core-values #line{
+    margin-top: -10px;
+}
+
+#core-values li{
+    text-align: left;
+    margin-left: 50px;
+}
+
+#subscribe{
+    padding: 5px;
+}
+
+#subscribe #line{
+    margin-top: -6px;
+}
+
+#subscribe input{
+    height: 6vh;
+    width: 60vw;
+    padding-left: 15px;
+    font-size: 1rem;
+}
+
+#subscribe button{
+    margin-top: 5%;
+    height: 6vh;
+    width: 28vw;
+    font-size: larger;
+    border-radius: 20px;
+    background-color: rgb(21, 7, 83);
+    border: 0px;
+    color: whitesmoke;
+}
+
+#subscribe button:hover{
+    background-color: whitesmoke;
+    color: rgb(21, 7, 83);
+    border: 3px solid rgb(21, 7, 83);
+}
+
+/*contact us css */
+#contact-details{
+    margin-top: 38%;
+}
+
+#contact-details img{
+    height: 46vh;
+}
+
+#information{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#information h4{
+    font-size: larger;
+}
+
+#information h4 span{
+    color: rgb(12, 4, 44);
+}
+
+#msg{
+    margin-bottom: 20px;
+}
+
+#msg img{
+    height: 50vh;
+    width: 95vw;
+}
+
+#input-us{
+    min-height: 35vh;
+    margin-top: -70%;
+}
+
+#input-us input, textarea{
+    margin-top: 12px;
+    height: 6vh;
+    width: 50vw;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+
+#input-us button{
+    margin-top: 19px;
+    height: 6vh;
+    font-size: large;
+    background-color: rgb(4, 4, 53);
+    border: 0px;
+    color: whitesmoke;
+}
+
+#input-us button:hover{
+    background-color: rgb(237, 232, 232);
+    color: rgb(4, 4, 53);
+    border: 2px solid rgb(4, 4, 53);
+}
+
+/* tablet*/
+@media only screen and (min-width:768px){
+
+    #about-data{
+        margin-top: 18%;
+    }
+
+    #about-data h2{
+        font-size: 1.6rem;
+    }
+
+    #core-values{
+        margin-top: 60px;
+    }
+
+    #core-values li{
+        text-align: left;
+        margin-left: 170px;
+        font-size: 1.2rem;
+    }
+
+    #about-data p, #core-values p{
+        font-size: large;
+    }
+
+    #subscribe{
+        display: inline-flex;
+    }
+
+    #msg img{
+        height: 50vh;
+        width: 55vw;
+    }
+    
+    #subscribe input{
+        margin-left: 1.4%;
+        margin-top: 4%;
+        width: 40vw;
+    }
+
+    #subscribe button{
+        height: 6.6vh;
+        width: 10vw;
+        border-radius: 0px;
+        margin-top: 4.1%;
+        margin-left: 1%;
+    }
+
+    #contact-details{
+        margin-top: 15%;
+    }
+
+    #information{
+        display: inline-flex;
+        width: 99vw;
+    }
+
+    #information h4{
+        margin-left: 10px;
+        padding-left: 15px;
+        font-size: 1.2rem;
+    }
+
+    #msg{
+        margin-top: 5%;
+        display: inline-flex;
+    }
+
+    #input-us{
+        margin-top: 0%;
+        background-color: rgb(242, 241, 250);
+    }
+
+    #input-us input, textarea{
+        margin-left: 15px;
+        width: 35vw;
+    }
+
+    #input-us button{
+        background-color: rgb(21, 7, 83);
+        color: whitesmoke;
+    }
+
+    #input-us button:hover{
+        background-color: whitesmoke;
+        color: rgb(21, 7, 83);
+        border: 3px solid rgb(21, 7, 83);
+    }
+
+    #core-values {
+        display: inline-flex;
+    }
+
+    #core-values img{
+        height: 50vh;
+        width: 50vw;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    #blog-div {
+        width: 45vw;
+    }
+
+    #blog-div li{
+        margin-left: 10px;
+    }
+
+    #core-values #line, #subscribe #line{
+        margin-left: 100px;
+    }
+
+    #subscribe{
+        margin-top: 25px;
+    }
+
+    #subscribe button{
+        font-size: large;
+    }
+}
+
+/* desktop */
+@media only screen and (min-width:1200px){
+
+    #about, #contact{
+        margin-top: 7%;
+    }
+
+    #about-data{
+        margin-top: 2%;
+    }
+
+    #about-data h2{
+        font-size: 2rem;
+    }
+
+    #about-data p {
+        font-size: 1.2rem;
+    }
+
+    #subscribe{
+        width: 99vw;
+        padding-left: 35px;
+    }
+
+    #subscribe h2, h4{
+        text-align: left;
+    }
+
+    #subscribe input{
+        margin-top: 2%;
+        margin-left: 12%;
+    }
+
+    #subscribe button{
+        height: 6.8vh;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    #contact-details{
+        margin-top: 6%;
+    }
+
+    #information{
+        margin-top: -22%;
+    }
+    
+    #information h4{
+        font-size: 1.3rem;
+        padding-left: 110px;
+    }
+
+    #msg{
+        width: 90vw;
+    }
+
+    #msg img{
+        height: 65vh;
+        width: 45vw;
+    }
+
+    #input-us{
+        margin-left: 6%;
+        margin-top: 2%;
+    }
+
+    #input-us button{
+        height: 8vh;
+        width: 12vw;
+        margin-top: 6%;
+    }
+
+    #core-values #line{
+        margin-left: 290px;
+    }
+    #core-values img{
+        width: 30vw;
+    }
+
+    #subscribe #line{
+        margin-left: 4px;
+    }
+
+}

@@ -1,0 +1,45 @@
+#pop-modal{
+    background-color: rgba(15, 11, 11, 0.992);
+    width: 70vw;
+    height: 30vh;
+    margin-left: 25px;
+    margin-top: -10%;
+    position: absolute;
+}
+
+#pop-modal h2{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+#pop-modal button{
+    height: 5vh;
+    width: 20vw;
+    font-size: larger;
+    font-weight: 600;
+    background-color: white;
+    color: rgb(5, 5, 67);
+    border: 0px;
+    margin-top: 40px;
+}
+
+#pop-modal button:hover{
+    font-size: 1.4rem;
+}
+
+/* tablet*/
+@media only screen and (min-width:768px){
+    #pop-modal{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}
+
+/* desktop */
+@media only screen and (min-width:1200px){
+    #pop-modal{
+        width: 40vw;
+        margin-left: 21%;
+    }
+}

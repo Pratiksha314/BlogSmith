@@ -1,0 +1,127 @@
+#user-complaint{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 50vh;
+}
+
+#user-complaint-buttons{
+    height: 10vh;
+}
+
+#user-complaint-buttons button{
+    margin-top: 15px;
+    height: 8vh;
+    width: 25vw;
+    font-size: large;
+    float: left;
+    margin-left: 75px;
+    background-color: rgb(21, 7, 83);
+    color: whitesmoke;
+}
+
+#user-complaint-buttons button:hover{
+    background-color: whitesmoke;
+    color: rgb(21, 7, 83);
+    border: 2px solid rgb(21, 7, 83);
+}
+
+#complaint-choice-content{
+    margin-top: 12px;
+    min-height: 50vh;
+    width: 97vw;
+}
+
+#file-complaint{
+    height: 50vh;
+    width: 80vw;
+    margin-left: 8%;
+}
+#file-complaint h2{
+    margin-top: 35px;
+}
+
+#file-complaint textarea{
+    height: 30vh;
+    width: 70vw;
+    font-size: large;
+    padding: 10px;
+}
+
+#file-complaint button{
+    height: 6vh;
+    width: 20vw;
+    border-radius: 20px;
+    border: 2px solid rgb(21, 7, 83);
+    font-size: large;
+    color: rgb(21, 7, 83);
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+#file-complaint button:hover{
+    background-color: rgb(21, 7, 83);
+    color: white;
+}
+
+#seeOwnComplaints{
+    min-height: 50vh;
+    padding: 5px;
+}
+
+#contentOfComplaint{
+    min-height: 15vh;
+    width: 60vh;
+    margin-left: 30px;
+    border-radius: 12px;
+    border: 2px dotted darkblue;
+    margin-top: 15px;
+}
+
+#contentOfComplaint h3{
+    padding: 2px;
+    letter-spacing: 0.4px;
+}
+
+#contentOfComplaint h4{
+    text-align: right;
+    margin-right: 10px;
+    color: rgb(93, 88, 88);
+}
+
+@media only screen and (min-width:768px){
+    #user-complaint-buttons button{
+        margin-left: 17%;
+    }
+    #contentOfComplaint{
+        margin-left: 27%;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    #user-complaint-buttons{
+        width: 60vw;
+        margin-left: 20%;
+    }
+
+    #user-complaint-buttons button{
+        width: 20vw;
+        margin-left: 10%;
+    }
+    #file-complaint{
+        margin-left: 10%;
+    }
+
+    #file-complaint textarea{
+        width: 30vw;
+    }
+
+    #file-complaint button{
+        width: 15vw;
+        margin-left: 10px;
+    }
+
+    #contentOfComplaint{
+        margin-left: 38%;
+    }
+
+}

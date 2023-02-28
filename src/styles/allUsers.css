@@ -1,0 +1,59 @@
+#allUsers{
+    margin-top: 6%;
+    min-height: 30vh;
+    margin-left: 7.3%;
+}
+
+#allUsers tr, th{
+    background-color: rgb(11, 4, 46);;
+    height: 8vh;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    width: 20vw;
+}
+
+#allUsers table{
+    margin-left: -8%;
+    margin-bottom: 50px;
+}
+
+#allUsers tr{
+    color: rgb(38, 7, 38);
+}
+
+#allUsers tr:nth-child(even){
+    background-color: rgb(201, 200, 213);
+}
+
+#allUsers tr:nth-child(odd){    
+    background-color: rgb(163, 167, 208);
+}
+
+#allUsers th:nth-child(1){
+    width: 8vh;
+}
+
+/* tablet*/
+@media only screen and (min-width:768px){
+    #allUsers{
+        margin-left: 20%;
+    }
+}
+
+/* desktop */
+@media only screen and (min-width:1200px){
+    #allUsers{
+        margin-left: 15%;
+    }
+
+    #allUsers th{
+        font-size: larger;
+    }
+
+    #allUsers tr{
+        font-size: 1.18rem;
+        font-weight: 700;
+        background-color: rgb(145, 138, 182);
+    }
+}

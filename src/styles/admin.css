@@ -1,0 +1,95 @@
+#admin-wallpaper{
+    min-height: 120vh;
+    background-image: url("/src/images/admin/bg-photo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -10%;
+}
+
+#admin{ 
+    min-height: 80vh;
+    margin-top: 35%;
+}
+
+#before-click-admin, #after-click-admin, #find{
+    height: 8vh;
+    width: 30vw;
+    margin-left: 12px;
+    border: 2px solid rgb(21, 7, 83);
+    font-size: large;
+    border-radius: 30px;
+    color: rgb(21, 7, 83);
+}
+
+#setting-admin #find{
+    margin-top: 10px;
+    margin-right: 12px;
+    font-size: 0.9rem;
+    padding-left: 12px;
+    border: 0px;
+}
+
+#before-click-admin:hover, #after-click-admin{
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 7, 83);
+}
+
+#setting-admin div{
+    display: inline-flex;
+}
+
+.search-icon{
+    height: 5vh;
+    width: 5vw;
+    margin-top: 22px;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.search-icon:hover{
+    color: rgb(21, 21, 115)
+}
+
+/* tablet*/
+@media only screen and (min-width:768px){
+
+    #admin{
+        margin-top: 32%;
+    }
+
+    #setting-admin button, #find{
+        margin-top: -8%;
+    }
+
+    #setting-admin div{
+        margin-top: 2%;
+    }
+
+    #setting-admin #find{
+        font-size: 1.1rem;
+        padding-left: 25px;
+    }
+
+}
+
+/* desktop */
+@media only screen and (min-width:1200px){
+    #admin{
+        margin-top: 18%;
+        display: inline-flex;
+    }
+
+    #setting-admin{
+        margin-left:-20px;
+    }
+
+    #setting-admin button, #find{
+        width: 20vw;
+        margin-left: 80px
+    }
+
+    .search-icon{
+        margin-left: -98px;
+        margin-top: 20px;
+    }
+}

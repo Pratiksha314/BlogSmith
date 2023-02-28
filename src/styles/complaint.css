@@ -1,0 +1,57 @@
+#complaint{
+    margin-top: 5px;
+    width: 80vw;
+    min-height: 60vh; 
+    margin-left: 50px;
+}
+
+#complaint h1{
+    margin-top: 40px;
+    color: white;
+}
+
+#complaint-tile{
+    background-color: rgb(235, 233, 243);
+    padding: 10px;
+    margin-top: 12px;
+    border: 2px solid grey;
+}
+
+#complaint-tile h2,h3{
+    text-align: left;
+    word-spacing: 1px;
+    line-break: anywhere;
+}
+
+#complaint-tile h2{
+    font-size: larger;
+}
+
+#complaint-tile h3{
+    padding-bottom: 15px;
+    border-bottom: 2px dotted rgb(16, 10, 87);
+    font-weight: 500;
+}
+
+/* tablet*/
+@media only screen and (min-width:768px){
+    #complaint-tile{
+        margin-top: 35px;
+        padding-left: 40px;
+    }
+       
+}
+
+/* desktop */
+@media only screen and (min-width:1200px){
+    #complaint-tile{
+        width: 50vw;
+        margin-left: 18%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #complaint h1{
+        margin-left: 8%;
+    }
+}

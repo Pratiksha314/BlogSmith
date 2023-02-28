@@ -1,0 +1,228 @@
+#friends{
+    min-height: 50vh;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+#choice{
+    height: 8vh;
+    width: 60vw;
+    display: inline-flex;
+    margin-left: -2%;
+    background-color: rgb(254, 247, 237);
+    padding: 10px;
+    padding-bottom: 2px;
+    box-shadow: 6px 6px rgb(123, 120, 120);
+}
+
+#friends input{
+    height: 4vh;
+    width: 35vw;
+    font-size: medium;
+    padding: 5px;
+    margin-left: 1px;
+}
+
+#friends .find-icon{
+    height: 3vh;
+    width: 3vw;
+    margin-left: -22px;
+    margin-top: 10px;
+}
+
+#friends .find-icon:hover{
+    color: rgb(90, 2, 90);
+}
+
+#friends button{
+    height: 7vh;
+    width: 25vw;
+    font-size: larger;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(21, 7, 83);
+    font-weight: 700;
+}
+
+.fr-icon, .after-clicked-fr-icon{
+    height: 5vh;
+    width: 7vw;
+    margin-left: 25px;
+    margin-top: 4px;
+    background-color: whitesmoke;
+    color: rgb(21, 7, 83);
+}
+
+.fr-icon:hover, .after-clicked-fr-icon{
+    color: white;
+    background-color: rgb(21, 7, 83);
+}
+
+#friend-list{
+    min-height: 30vh;
+    margin-top: 20px;
+}
+
+#friend-tile{
+    display: inline-flex;
+    width: 80vw;
+    min-height: 25vh;
+    margin-left: 4%;
+    border: 3px solid rgb(21, 7, 83);
+    background-color: rgb(225, 210, 246);
+    box-shadow: 10px 10px grey;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#friend-tile:hover{
+    border: 4px solid rgb(21, 7, 83);
+    box-shadow: 10px 10px rgb(85, 79, 113);
+}
+
+#whole-list{
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+#friend-tile img{
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    height: 25vh;
+    width: 55vw;
+    object-fit: contain;
+}
+
+#friend-tile h2{
+    margin-left: 18px;
+    margin-top: 65px;
+    font-size: 1.8rem;
+    padding-right: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#whole-list button{
+    position: absolute;
+    height: 5vh;
+    width: 15vw;
+    margin-left: 65%;
+    margin-top: 28%;
+    font-size: medium;
+    border: 0px;
+}
+
+#whole-list button:hover{
+    color: rgb(99, 3, 3);
+}
+
+/* tablet*/
+@media only screen and (min-width:768px){
+    #choice {
+        margin-top: 10px;
+        margin-left: 2%;
+        width: 40vw;
+    }
+
+    #choice input{
+        width: 40vw;
+        margin-left: 10px;
+        margin-right: 4px;
+    }
+
+    #choice .find-icon{
+        margin-left: -30px;
+        height: 3vh;
+        margin-top: 10px;
+        width: 5vw;
+    }
+
+    #tile-profile{
+        margin-left: 80px;
+    }
+
+    #friend-tile{
+        width: 60vw;
+    }
+
+    #friend-tile img{
+        height: 30vh;
+        width: 50vw;
+    }
+
+    #friend-tile h2{
+        font-size: 1.8rem;
+        margin-top: 80px;
+        margin-right: 15px;
+    }
+
+    .fr-icon, .after-clicked-fr-icon{
+        height: 4vh;
+        margin-left:2px;
+        padding-left: 1px ;
+    }
+
+    #whole-list button{
+        height: 5vh;
+        width: 12vw;
+        margin-left: 47%;
+        margin-top: 20%;
+    }
+}
+
+/* desktop */
+@media only screen and (min-width:1200px){
+    #choice {
+        margin-top: 10px;
+        margin-left: -1%;
+        width: 30vw;
+    }
+
+    #choice input{
+        width: 25vw;
+        margin-right: 16px;
+    }
+    #choice .find-icon{
+        margin-left: -75px;
+    }
+
+    #choice button{
+        width: 25vw;
+        font-size: 1.5rem;
+    }
+
+    #tile-profile{
+        margin-left: 100px;
+    }
+
+    #friend-tile{
+        width: 40vw;
+        margin-right: 20px; 
+    }
+
+    #friend-tile img{
+        height: 40vh;
+        width: 30vw;
+        margin-left: 2px;
+    }
+
+    #friend-tile h2{
+        font-size: 2rem;
+        margin-left: 10px;
+        margin-top: 110px;
+    }
+
+    .fr-icon, .after-clicked-fr-icon{
+        width: 3vw;
+        height: 5vh;
+        padding: 5px;
+        margin-top: 2px;
+    }
+
+    #whole-list button{
+        height: 5vh;
+        width: 6vw;
+        margin-top: 16%;
+        margin-left: 33%;
+    }
+}

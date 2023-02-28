@@ -1,0 +1,93 @@
+#notification{
+    margin-top: 10px;
+    min-height: 35vh;
+}
+ 
+#bell-detail{
+    min-height: 15vh;
+    width: 50vw;
+    margin-left: 105px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(62, 61, 65);
+    box-shadow: 5px 5px rgb(132, 129, 129);
+    border-radius: 10px;
+    background-color: rgb(226, 223, 232);
+}
+
+#buttons{
+    display: inline-flex;
+    margin-left: -32px;
+}
+
+#bell-detail:hover{
+    box-shadow: 5px 5px rgb(41, 38, 44); 
+    border-radius: 4px solid rgb(120, 111, 140);
+}
+
+#bell-detail h3{
+    margin-top: 23px;
+    font-size: large;
+    margin-left: 30px;
+}
+
+#bell-detail h3 span{
+    font-weight: 700;
+}
+
+#bell-detail button{
+    background-color: rgb(236, 235, 239);
+    margin-top: 5px;
+    height: 4vh;
+    width: 14vw;
+    font-size: medium;
+    border: 0px;
+}
+
+#bell-detail button:hover{
+    font-size: large;
+}
+
+/* tablet*/
+@media only screen and (min-width:768px){
+    #bell-detail{
+        width: 55vw;
+        margin-top: 16px;
+        margin-left: 180px;
+    }
+
+    #bell-detail h3{
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+}
+
+/* desktop */
+@media only screen and (min-width:1200px){
+
+    #grid-css{
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        margin-left: 12%;
+    }
+
+    #notification h2{
+        font-size: 2rem;
+    }
+
+    #bell-detail{
+        width: 20vw;
+        margin-left: 5%;
+    }
+
+    #buttons{
+        margin-left: -14px;
+    }
+
+    #bell-detail button{
+        width: 8vw;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+}

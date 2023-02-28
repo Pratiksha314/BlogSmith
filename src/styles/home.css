@@ -1,0 +1,242 @@
+#welcome-home{
+    margin-top: 25%;
+    padding: 5px;
+}
+
+#welcome-home h2{
+    margin-top: 50px;
+    font-size: 1.rem;
+    padding: 25px;
+    color: rgb(34, 23, 23);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#welcome-home p{
+    word-spacing: 1px;
+    font-weight: 600;
+}
+
+#blog-event{
+    font-size: 1.9rem;
+}
+
+#line{
+    height: 3px;
+    width: 20vw;
+    background-color: rgb(38, 8, 128);
+    margin-top: -40px;
+    margin-left: 40%;
+}
+
+#event-div{
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#event-div img {
+    height: 50vh;
+    width: 80vw;
+    object-fit: contain;
+    margin-top: -30px;
+}
+
+#event-div h3{
+    text-align: center;
+    margin-top: -30px;
+}
+
+#event-div p{
+    color: rgb(54, 51, 51);
+}
+
+#event-div-photo{
+    background-color: aqua;
+    height: 60vh;
+    width: 95vw;
+}
+
+#learn-more-button{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 7vh;
+    width: 32vw;
+    border-radius: 32px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0px;
+    color: whitesmoke;
+    background-color: rgb(8, 8, 59);
+}
+
+#learn-more-button:hover{
+    background-color: whitesmoke;
+    border: 3px solid rgb(8, 8, 59);
+    color: rgb(8, 8, 59);
+}
+
+#photos-home{
+    background-color: rgba(186, 190, 186, 0.148);
+}
+
+#photos-home img{
+    width: 92vw;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* tablet */
+@media only screen and (min-width:768px){
+    #welcome-home{
+        margin-top: 16%;
+    }
+
+    #welcome-home h2{
+        font-size: 2rem;
+    }
+
+    #welcome-home p{
+        margin-top: 30px;
+        font-size: 1.1rem;
+    }
+
+    #main-event-div{
+        display: inline-flex;
+    }
+
+    #event-div img {
+        height: 40vh;
+        width: 40vw;
+    }
+
+    #learn-more-button{
+        width: 20vw;
+    }
+
+    #many-photo-div{
+        display: inline-flex;
+    }
+
+    #many-photo-sub{
+        height: 80vh;
+        width: 35vw;
+    }
+
+    #sub-photos-part{
+        width: 62vw;
+    }
+
+    #many-photo-sub p{
+        padding: 25px;
+    }
+
+    #photos-home{
+        display: inline-flex;
+        min-height: 60vh;
+    }
+
+    #two-photos-one, #two-photos-two{ 
+        margin-top: 35px;
+        width: 31vw;
+    }
+
+    #two-photos-one img:nth-child(1),#two-photos-two img:nth-child(2){
+        height: 25vh;
+        width: 30vw;
+    }
+
+    #two-photos-one img:nth-child(2),#two-photos-two img:nth-child(1){
+        height: 40vh;
+        width: 30vw;
+    }
+
+    #many-photo-sub #line{
+        margin-left: 70px;
+    }
+
+}
+
+/* desktop */
+@media only screen and (min-width:1200px){
+    #home{
+        margin-top: 8%;
+    }
+
+    #welcome-home{
+        margin-top: 2%;
+    }
+
+    #welcome-home h2{
+        font-size: 2rem;
+    }
+
+    #welcome-home p{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    #line{
+        width: 8vw;
+        margin-left: 46%;
+    }
+
+    #main-event-div{
+        margin-top: 40px;
+    }
+
+    #event-div{
+        margin-right: 10px;
+    }
+
+    #event-div img {
+        height: 45vh;
+        width: 30vw;
+        margin-right: 20px;
+    }
+
+    #event-div h3{
+        font-size: 1.6rem;
+        margin-top: 10px;
+    }
+
+    #event-div p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #event-div button{
+        width: 15vw;
+    }
+
+    #many-photo-div{
+        width: 88vw;
+    }
+
+    #many-photo-div #line{
+        margin-left: 180px;
+    }
+
+    #many-photo-div p{
+        padding-top: 40px;
+        padding-right: 40px;
+        text-align: left;
+    }
+
+    #many-photo-div button{
+        width: 12vw;
+    }
+
+    #two-photos-one , #two-photos-two{
+        min-height: 25vh;
+        width: 25vw;
+    }
+
+    #two-photos-one img:nth-child(1),#two-photos-two img:nth-child(2){
+        height: 30vh;
+        width: 22vw;
+    }
+
+    #two-photos-one img:nth-child(2),#two-photos-two img:nth-child(1){
+        height: 52vh;
+        width: 22vw;
+    }
+}

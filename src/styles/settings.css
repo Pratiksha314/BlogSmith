@@ -1,0 +1,167 @@
+#settings{
+    min-height: 60vh;
+    padding: 5px;
+}
+ 
+#settings h3 {
+    text-align: center;
+    font-style: oblique;
+}
+
+#change-options{
+    height: 10vh;
+    width: 90vw;
+    display: inline-flex;
+}
+
+#before-click, #after-click{
+    height: 6vh;
+    width: 35vw;
+    font-size: 1rem;
+    border: 2px solid rgb(21, 7, 83);
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+#before-click:hover, #change-profile-name button:hover, .change-photo button:hover, #after-click{
+    background-color: rgb(21, 7, 83);
+    color: white;
+}
+
+#change-profile-name, .change-photo{
+    min-height: 30vh;
+    width: 80vw;
+    background-color: rgb(227, 227, 241);
+    padding: 5px;
+    box-shadow: 10px 10px rgb(165, 164, 164);
+    border-radius: 12px;
+    margin-left: 6%;
+    border: 2px solid rgb(162, 154, 154);
+}
+
+.change-photo{
+    min-height: 22vh;
+    margin-bottom: 30px;
+}
+
+.input-name{
+    display: inline-flex;
+}
+
+.input-name h3{
+    color: rgb(45, 2, 45);
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+
+.input-name input{
+    height: 6vh;
+    width: 40vw;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#change-profile-name button, .change-photo button{
+    height: 5vh;
+    width: 20vw;
+    margin-top: 25px;
+    font-size: large;
+    border: 2px solid rgb(21, 7, 83);
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.change-photo img {
+    height: 40vh;
+    width: 80vw;
+    object-fit: contain;
+}
+
+.change-photo input{
+    margin-top: 20px;
+}
+
+#at-button{
+    width: 40vw;
+    font-size: larger;
+    font-weight: 700;
+    background-color: rgb(21, 7, 83);
+    color: aliceblue;
+    letter-spacing: 0.6px;
+}
+
+#at-button:hover{
+    background-color: aliceblue;
+    color: rgb(21, 7, 83) ;
+}
+/* tablet*/
+@media only screen and (min-width:768px){
+    #change-profile-name{
+        width: 60vw;
+        margin-left: 17%;
+    }
+
+    .input-name input{
+        margin-left: 20px;
+        font-size: large;
+    }
+
+    .change-photo h3 {
+        margin-left: 40px;
+    }
+
+    .change-photo img{
+        margin-left: -19%;
+    }
+    .change-photo span{
+        margin-top: 20px;
+    }
+    .change-photo{
+        width: 58vw;
+        margin-left: 20%;
+    }
+}
+
+/* desktop */
+@media only screen and (min-width:1200px){
+    #change-profile-name, .change-photo {
+        width: 45vw;
+        margin-left: 25%;
+    }
+
+    .input-name{
+        margin-left: 14px;
+    }
+
+    #change-profile-name input {
+        width: 30vw;
+        margin-left: 4%;
+    }
+
+    .input-name h3 {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .input-name h4{
+        font-size: large;
+    }
+
+    #change-profile-name button, #at-button{
+        width: 15vw;
+        font-size: larger;
+    }
+
+    .change-photo h3{
+        font-size: 1.7rem;
+    } 
+    .change-photo img {
+        width: 40vw;
+        height: 45vh;
+        margin-left: 1%;
+    }
+
+    #at-button{
+        margin-left: 35px;
+    }
+}

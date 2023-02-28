@@ -1,0 +1,166 @@
+#chat{
+    min-height: 40vh;
+    width: 93vw;
+    margin-left: 18px;
+    margin-top: 50px;
+    background-color: rgb(245, 245, 245);
+}
+ 
+#left-side, #right-side{
+    width: 42vw;
+    min-height: 10vh;
+    margin-top: -17px;
+}
+
+#set-div-left{
+    min-height: 4vh;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    box-shadow: 3.5px 3.5px grey;
+}
+
+#set-div-right{
+    min-height: 4vh;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    box-shadow: 3.5px 3.5px grey;
+}
+
+#set-div-left h3{
+    margin-top: 3.5px;
+    padding-top: 5px;
+    padding-right: 8px;
+    font-size: medium;
+}
+
+#set-div-left, #set-div-right{
+    background-color: rgba(196, 187, 224, 0.973);
+    max-width: fit-content;
+}
+
+#right-side{
+   margin-left: 52%;
+}
+
+#set-div-right{
+    float: right;
+}
+
+#set-div-right h3{
+    margin-top: 5.5px;
+    margin-bottom: 1px;
+    padding-right: 5px;
+    font-size: medium;
+}
+
+#send-msg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 7vh;
+    width: 90vw;
+    display: inline-flex;
+}
+
+#send-msg input{
+    width: 70vw;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 1rem;
+    margin-left: 45px;
+    box-shadow: 2px 2px grey;
+}
+
+#send-msg input:hover{
+    box-shadow: 2px 2px rgb(99, 97, 97);
+}
+
+.send-msg-button{
+    background-color: rgb(6, 6, 66);
+    color: white;
+    border-radius: 40px;
+    height: 5vh;
+    width: 7vw;
+    margin-top: 7px;
+    margin-left: -40px;
+}
+
+.send-msg-button:hover{
+    background-color: white;
+    color: rgb(6, 6, 66);
+    border: 2px solid rgb(6, 6, 66);
+}
+
+#set-div-left p, #set-div-right p{
+    text-align: right;
+    font-size: smaller;
+    color: rgb(60, 57, 57);
+    margin-right: 4px;
+}
+
+/* tablet*/
+@media only screen and (min-width:768px){
+    #left-side{
+        margin-left: 15%;
+    }
+
+    #send-msg{
+        margin-left: 21%;
+    }
+
+    #send-msg input{
+        width: 55vh;
+    }
+
+    .send-msg-button{
+        width: 4vw;
+    }
+
+}
+
+/* desktop */
+@media only screen and (min-width:1200px){
+
+    #chat{
+        width: 98vw;
+    }
+
+    #left-side, #right-side{
+        width: 25vw;
+    }
+
+    #left-side{
+        margin-left: 30%;
+    }
+
+    #set-div-left, #set-div-right{
+        min-height: 6vh;
+    }
+
+    #set-div-left h3, #set-div-right h3{
+        padding-top: 10px;
+        font-size: large;
+    }
+
+    #set-div-right h3{
+        margin-top: 1px;
+    }
+
+    #right-side{
+        margin-left: 50%;
+    }
+
+    #send-msg{
+        margin-top: 50px;
+        margin-left: 31%;
+    }
+
+    #send-msg input{
+        margin-left: 90px;
+    }
+
+    .send-msg-button{
+        width: 3vw;
+        margin-left: -50px;
+    }
+}

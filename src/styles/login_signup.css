@@ -1,0 +1,181 @@
+#account-wallpaper{
+    height: 100vh;
+    background-image: url("/src/images/login_signup/pexels-frank-cone-2258536.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#account{
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    margin-top: 28%;
+    margin-left: 4.5%;
+    min-height: 60vh;
+    width: 88vw;
+    border-radius: 16px;
+}
+
+#account h1{
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#account input{
+    height: 6.8vh;
+    width: 70vw;
+    border-radius: 10px;
+    border: 2px solid rgb(29, 13, 102);
+    padding-left: 12px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#account button{
+    margin-top: 45px;
+    height: 6.8vh;
+    width: 74vw;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(13, 4, 53);
+    font-weight: 700;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+#account button:hover{
+    background-color: whitesmoke;
+    color: rgb(13, 4, 53);
+    border: 3px solid rgb(13, 4, 53);
+}
+
+#signup-link{
+    margin-top: 40px;
+    display: inline-flex;
+}
+
+#signup-link h3{
+    font-size: medium;
+}
+
+#signup-link button{
+    border: 0px;
+    background-color: rgb(247, 246, 249);
+    margin-top: -1px;
+    width: 15vw;
+    font-size: large;
+}
+
+#signup-link button a {
+    text-decoration: none;
+    color: rgb(13, 4, 53);
+}
+
+#signup-link button:hover{
+    border: 0px;
+}
+
+#account p {
+    font-size: larger;
+    color: rgb(255, 12, 12);
+    font-weight: 700;
+}
+
+#otp{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -2%;
+    background-color: rgba(20, 10, 63, 0.962);
+    border: 4px solid black;
+    height: 40vh;
+    width: 90vw;
+    z-index: 1;
+}
+
+#otp h2{
+    margin-top: 8%;
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: 500;
+}
+
+#otp button{
+    font-size: 1.4rem;
+    background-color: white;
+    color: rgb(30, 22, 63);
+}
+
+#account span{
+    margin-left: -29px;
+    padding-right: 14px;
+}
+
+/* tablet*/
+@media only screen and (min-width:768px){
+    #account{
+        margin-top: 15%;
+        width: 60vw;
+        margin-left: 20%;
+    }
+
+    #account input{
+        width: 50vw;
+    }
+    
+    #account button{
+        width: 52vw;
+    }
+    
+    #signup-link button{
+        margin-top: -1px;
+        width: 15vw;
+    }
+
+    #otp{
+        margin-top: 5%;
+        margin-left: -1%;
+        height: 40vh;
+        width: 60vw;
+    }
+
+    #otp input{
+        margin-top: 5%;
+    }
+}
+
+/* desktop */
+@media only screen and (min-width:1200px){
+    #account{
+        margin-top: 8.2%;
+        margin-left: 33%;
+        width: 35vw;
+        border-radius: 20px;
+    }
+
+    #account input{
+        width: 25vw;
+    }
+    
+    #account button{
+        width: 26vw;
+    }
+
+    #signup-link{
+        margin-top: 1%;
+    }
+
+    #signup-link button{
+        width: 6vw;
+        margin-left: 1px;
+    }
+
+    #otp{
+        width: 40vw;
+        margin-left: -8%;
+    }
+
+    #otp h2{
+        margin-top: 5%;
+        font-size: 1.6rem;
+    }
+}

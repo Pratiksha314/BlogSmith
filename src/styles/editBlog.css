@@ -1,0 +1,110 @@
+#edit-blog{ 
+    background-color: rgb(16, 9, 54);
+    margin-top: -4%;
+    min-height: 60vh;
+}
+
+#edit-blog h2{
+    position: absolute;
+    font-style: italic;
+    color: white;
+    margin-top: 20%;
+    margin-left: 35%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#div-photo img{
+    height: 50vh;
+    width: 95vw;
+    margin-top: 22%;
+}
+
+#add-blog-details input, #add-blog-details textarea{
+    margin-top: 10px;
+    height: 7vh;
+    width: 80vw;
+    font-size: large;
+    padding: 5px;
+}
+
+#add-blog-details textarea{
+    height: 20vh;
+}
+
+#add-blog-details span input{
+    background-color: aliceblue;
+}
+
+#add-blog-details button{
+    height: 6vh;
+    width: 45vw;
+    font-size: larger;
+    background-color: white;
+    color: rgb(13, 4, 53);
+    margin-top: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#add-blog-details button:hover{
+    background-color: rgb(168, 164, 164);
+    color: black;
+}
+
+@media only screen and (min-width:768px){
+    #edit-blog h2{
+        margin-left: 42%;
+    }
+
+    #add-blog-details img{
+        width: 70vw;
+    }
+
+    #add-blog-details input{
+        margin-top: 20px;
+        width: 60vw;
+    }
+
+    #add-blog-details textarea{
+        width: 60vw;
+        margin-left: -2px;
+    }
+
+    #div-photo h3{
+        margin-left: 21%;
+    }
+}
+
+@media only screen and (min-width:1200px){
+
+    #edit-blog h2{
+        margin-top: 10%;
+        margin-left: 45%;
+        font-size: 2rem;
+    }
+
+    #add-blog-details img{
+        width: 45vw;
+        margin-top: 12%;
+    }
+
+    #add-blog-details input{
+        width: 40vw;
+    }
+
+    #add-blog-details textarea{
+        width: 40vw;
+        margin-left: -2px;
+    }
+
+    #div-photo h3{
+        margin-left: 34%;
+    }
+
+    #add-blog-details button{
+        width: 25vw;
+        font-size: larger;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
