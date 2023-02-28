@@ -1,4 +1,4 @@
-# BLOG SITE ( MERN Full Stack )
+# BLOG SMITH ( MERN Full Stack )
 
 ### Postman for testing the APIs
 
